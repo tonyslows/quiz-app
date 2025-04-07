@@ -1,21 +1,12 @@
-const questions = [
-    {
-        question: "Phần của đường bộ được sử dụng cho các phương tiện giao thông qua lại là gì?",
-        answers: [
-            {text: "1- Phần mặt đường và lề đường.", isCorrect: false},
-            {text: "2- Phần đường xe chạy.", isCorrect: true},
-            {text: "3- Phần đường xe cơ giới.", isCorrect: false}
-        ]
-    },
-    {
-        question: "Cuộc đua xe chỉ được thực hiện khi nào?",
-        answers: [
-            {text: "1-Diễn ra trên đường phố không có người qua lại.", isCorrect: false},
-            {text: "2-Được người dân ủng hộ.", isCorrect: false},
-            {text: "3-Được cơ quan có thẩm quyền cấp phép", isCorrect: true}
-        ]
-    }
-];
+let questions = [];
+
+fetch("questions.json")
+    .then(response => response.json())
+    .then(data => {
+        questions = data;
+        startQuiz();
+    });
+
 
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");

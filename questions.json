@@ -1,0 +1,95 @@
+[
+    { 
+        "question": "Phần của đường bộ được sử dụng cho các phương tiện giao thông qua lại là gì?",
+        "answers": [
+            {"text": "1- Phần mặt đường và lề đường.", "isCorrect": false},
+            {"text": "2- Phần đường xe chạy.", "isCorrect": true},
+            {"text": "3- Phần đường xe cơ giới.", "isCorrect": false}
+        ]
+    },
+    {
+        "question": "Cuộc đua xe chỉ được thực hiện khi nào?",
+        "answers": [
+            {"text": "1-Diễn ra trên đường phố không có người qua lại.", "isCorrect": false},
+            {"text": "2-Được người dân ủng hộ.", "isCorrect": false},
+            {"text": "3-Được cơ quan có thẩm quyền cấp phép", "isCorrect": true}
+        ]
+    },
+    {
+        "question": "* Ở phần đường dành cho người đi bộ qua đường, trên cầu, đầu cầu, đường cao tốc, đường hẹp, đường dốc, tại nơi đường bộ giao nhau cùng mức với đường sắt có được quay đầu xe hay không?",
+        "answers": [
+            {"text": "1-Được phép.", "isCorrect": false},
+            {"text": "2-Không được phép.", "isCorrect": true},
+            {"text": "3-Tùy từng trường hợp.", "isCorrect": false}
+        ]
+    },
+    {
+        "question": "Người đủ bao nhiêu tuổi trở lên thì được điều khiển xe mô tô hai bánh, xe mô tô ba bánh có dung tích xi lanh từ 50 cm3 trở lên và các loại xe có kết cấu tương tự; xe ô tô tải, máy kéo có trọng tải dưới 3,5 tấn; xe ô tô chở người đến 9 chỗ ngồi?",
+        "answers": [
+            {"text": "1-16 tuổi.", "isCorrect": false},
+            {"text": "2-18 tuổi.", "isCorrect": true},
+            {"text": "3-17 tuổi.", "isCorrect": false}
+        ]
+    },
+    {
+        "question": "Biển báo hiệu có dạng tam giác đều, viền đỏ, viền màu vàng, trên có hình vẽ màu đen là loại biển gì dưới đây?",
+        "answers": [
+            {"text": "1-Biển báo nguy hiểm.", "isCorrect": true},
+            {"text": "2-Biển báo cấm.", "isCorrect": false},
+            {"text": "3-Biển báo hiệu lệnh.", "isCorrect": false},
+            {"text": "4-Biển báo chỉ dẫn.", "isCorrect": false}
+        ]
+    },
+    {
+        "question": "* Người lái xe phải làm gì khi quay đầu xe trên cầu, đường ngầm hay khu vực đường bộ giao nhau cùng mức với đường sắt?",
+        "answers": [
+            {"text": "1-Không được quay đầu xe.", "isCorrect": true},
+            {"text": "2-Lợi dụng chỗ rộng và phải có người làm tín hiệu sau xe để bảo đảm an toàn.", "isCorrect": false},
+            {"text": "3-Lợi dụng chỗ rộng có thể quay đầu được để quay đầu xe cho an toàn.", "isCorrect": false}
+        ]
+    },
+    {
+        "question": "* Người ngồi trên xe mô tô 2 bánh, xe gắn máy phải đội mũ bảo hiểm có cài quai đúng quy cách khi nào?",
+        "answers": [
+            {"text": "1-Khi tham gia giao thông đường bộ.", "isCorrect": true},
+            {"text": "2-Chỉ khi đi trên đường chuyên dùng; đường cao tốc.", "isCorrect": false},
+            {"text": "3-Khi tham gia giao thông trên đường tỉnh lộ hoặc quốc lộ.", "isCorrect": false}
+        ]
+    },
+    {
+        "question": "Trên đường bộ (trừ đường cao tốc) trong khu vực đông dân cư, đường hai chiều hoặc đường một chiều có một làn xe cơ giới, loại xe nào dưới đây được tham gia giao thông với tốc độ tối đa cho phép là 50 km/h?",
+        "answers": [
+            {"text": "1-Ô tô con, ô tô tải, ô tô chở người trên 30 chỗ.", "isCorrect": true},
+            {"text": "2-Xe gắn máy, xe máy chuyên dùng.", "isCorrect": false},
+            {"text": "3-Cả ý 1 và ý 2.", "isCorrect": false}
+        ]
+    },
+    {
+        "question": "Trên đoạn đường bộ giao nhau đồng mức với đường sắt, người không có nhiệm vụ có được tự ý mở chắn đường ngang khi chắn đã đóng hay không?",
+        "answers": [
+            {"text": "1-Không được phép.", "isCorrect": true},
+            {"text": "2-Được phép nhưng phải đảm bảo an toàn.", "isCorrect": false},
+            {"text": "3-Được phép tùy từng hoàn cảnh và điều kiện cụ thể.", "isCorrect": false}
+        ]
+    },
+    {
+        "question": "Khi dừng, đỗ xe trên đường phố hẹp, người lái xe ô tô phải dừng, đỗ xe ở vị trí cách xe ô tô đang đỗ bên kia đường khoảng cách tối thiểu là bao nhiêu mét trong các trường hợp dưới đây để đảm bảo an toàn giao thông?",
+        "answers": [
+            {"text": "1-5 mét.", "isCorrect": false},
+            {"text": "2-10 mét.", "isCorrect": false},
+            {"text": "3-15 mét.", "isCorrect": false},
+            {"text": "4-20 mét.", "isCorrect": true}
+        ]
+    },
+    {
+        "question": "Người nhận hàng có các quyền gì dưới đây?",
+        "answers": [
+            {"text": "1-Nhận và kiểm tra hàng hóa nhận được theo giấy vận chuyển hoặc chứng từ tương đương khác; yêu cầu người kinh doanh vận tải thanh toán chi phí phát sinh do giao hàng hóa chậm."
+            , "isCorrect": false},
+            {"text": "2-Yêu cầu hoặc thông báo cho người thuê vận tải để yêu cầu người lái xe bồi thường thiệt hại do mất mát, hư hỏng hàng hóa; nhận hàng hóa không theo giấy vận chuyển hoặc chứng từ tương đương khác."
+            , "isCorrect": false},
+            {"text": "3-Cả ý 1 và ý 2."
+            , "isCorrect": false}
+        ]
+    }
+]
