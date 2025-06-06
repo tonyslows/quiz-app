@@ -9,6 +9,7 @@ fetch("questions.json")
 
 
 const questionElement = document.getElementById("question");
+const questionImg = document.getElementById("question-img");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const h1 = document.querySelector("h1");
@@ -25,22 +26,27 @@ function startQuiz() {
 }
 
 function showQuestion() {
-    resetState();
-    let currentQuestion = questions[currentQuestionIndex];
-    let questionNo = currentQuestionIndex + 1;
-    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+  resetState();
+  let currentQuestion = questions[currentQuestionIndex];
+  questionElement.innerHTML = `${currentQuestionIndex + 1}. ${currentQuestion.question.replace(/^\* /, "")}`;
 
-    currentQuestion.answers.forEach(answer => {
-        const button = document.createElement("button");
-        button.innerHTML = answer.text;
-        button.classList.add("btn");
-        answerButtons.appendChild(button);
-        if(answer.isCorrect) {
-            button.dataset.isCorrect = answer.isCorrect;
-        }
-        button.addEventListener("click", selectAnswer);
-    });
+  if (currentQuestion.image) {
+    questionImg.src = currentQuestion.image;
+    questionImg.style.display = "block";
+  } else {
+    questionImg.style.display = "none";
+  }
+
+  currentQuestion.answers.forEach(answer => {
+    const button = document.createElement("button");
+    button.innerHTML = answer.text;
+    button.classList.add("btn");
+    if (answer.isCorrect) button.dataset.isCorrect = answer.isCorrect;
+    button.addEventListener("click", selectAnswer);
+    answerButtons.appendChild(button);
+  });
 }
+
 
 function resetState() {
     nextButton.style.display = "none";
@@ -73,6 +79,7 @@ function showScore() {
     questionElement.innerHTML = `Bạn trả lời đúng ${score}/${questions.length} câu hỏi!`;
     nextButton.innerHTML = "Làm lại";
     nextButton.style.display = "block";
+    questionImg.style.display = "none";
 }
 
 function handleNextQuestion() {
